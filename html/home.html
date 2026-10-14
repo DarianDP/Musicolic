@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/menu.css">
+    <script src="/script/home.js" defer></script>
     <title>Home</title>
 </head>
 
@@ -38,7 +39,61 @@
     <div class="menu-papa">
         <div class="section-1">
             <div class="Been-listen">
-                <input type="text" placeholder="What you been listening to?"  >
+                <input type="text" placeholder="What you been listening to?">
+                <hr class="listen-divider">
+                <div class="listen-actions">
+                    <button id="rate-album">⭐ Rate an Album</button>
+                    <button id="create-list">📋 Create a List</button>
+                </div>
+            </div>
+            <h3 id="p-reviews">Popular Reviews</h3>
+
+            <div class="reviews-container">
+                <a href="" class="review-redirect">
+                <div class="reviews-rules">
+
+                    <div class="album-header">
+
+                    <img src="/css/img/taylor.jpeg" class="album cover">
+                    <h3 class="title">Wakala</h3>
+
+                    </div>
+
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star-empty">★</span>
+                        <span class="star-empty">★</span>
+                        <span class="star-empty">★</span>
+                        <span class="star-empty">★</span>
+
+                    </div>
+
+                    <p class="review-content">Taylor swift last album is the bigges shit i ever seen in my life cuh</p>
+
+                      </a>
+
+                      <a href="" class="user-profile-link">
+                    <div class="user-review">
+                        <img src="/css/img/pablito.jpg" alt="" class="user-profile-img">
+                        <h3 class="user-name-review">PablitoLaQuema</h3>
+                    </div>
+                    </a>
+
+                    <div class="user-others-interaction">
+                        <div class="interaction-item">
+                            <button class="Likes" type="button" aria-label="Like review" data-reaction="like" aria-pressed="false">♡</button>
+                            <span class="interaction-count" aria-live="polite">0</span>
+                        </div>
+                        <div class="interaction-item">
+                            <button class="coment" type="button" aria-label="Comment on review" data-reaction="comment" aria-pressed="false">🗨︎</button>
+                            <span class="interaction-count" aria-live="polite">0</span>
+                        </div>
+                    </div>
+                        
+
+                </div>
+
+              
 
             </div>
         </div>

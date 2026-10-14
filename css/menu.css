@@ -1,7 +1,13 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #191919;
+}
+
+button,
+input{
+    font-family: inherit;
 }
 
 .header{
@@ -17,7 +23,7 @@ body{
 
 .menu-papa{
     background-color: #191919;
-    height: 643px;
+    min-height: calc(100vh - 70px);
     box-sizing: border-box;
     padding-top: 40px;
 }
@@ -25,14 +31,198 @@ body{
 .Been-listen{
     box-sizing: border-box;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
-    height: 200px;
-    margin: 0 0 0 100px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 700px;
+    min-height: 140px;
+    margin: 0 0 0 160px;
     padding: 24px;
+    gap: 16px;
     background-color: #252424;
     color: white;
+    border-radius: 20px;
+}
+
+#p-reviews{
+    color: white;
+    margin: 72px 0 0 160px;
+}
+
+.reviews-rules{
+    box-sizing: border-box;
+    width: 700px;
+    min-height: 250px;
+    padding: 20px 0;
+    background-color: #252424;
+    border-radius: 20px;
+}
+
+.album-header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 20px;
+}
+
+.album-header img{
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.album-header .title{
+    align-self: flex-start;
+    margin: 18px 0 0;
+    color: white;
+}
+
+.rating{
+    display: flex;
+    gap: 4px;
+    margin: 12px 0 0 20px;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.star{
+    color: #ffd700;
+}
+
+.star-empty{
+    color: #666666;
+}
+
+.review-content{
+    color: white;
+    margin: 20px 0 0;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.user-review{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0 0 20px;
+}
+
+.user-profile-link{
+    display: inline-block;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    transform-origin: left center;
+}
+
+.user-profile-link:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.user-profile-img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-name-review{
+    margin: 0;
+    color: white;
+}
+
+.user-others-interaction{
+    display: flex;
+    gap: 12px;
+    margin: 12px 0 0 20px;
+}
+
+.interaction-item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.interaction-count{
+    color: white;
+    font-size: 16px;
+}
+
+.user-others-interaction button{
+    padding: 10px 18px;
+    color: white;
+    background-color: rgba(37, 36, 36, 0.7);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.interaction-item:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.user-others-interaction .Likes[aria-pressed="true"]{
+    color: #ff6b8a;
+}
+
+.reviews-container{
+    margin: 24px 0 0 160px;
+}
+
+.review-redirect{
+    display: block;
+    width: 700px;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    transform-origin: left center;
+}
+
+.review-redirect:hover{
+    transform: scale(1.02);
+    filter: brightness(1.2);
+}
+
+.listen-actions{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.listen-divider{
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    border: 0;
+    background-color: #666666;
+}
+
+#rate-album,
+#create-list{
+    flex: 1;
+    padding: 10px 16px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+#rate-album:hover,
+#create-list:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
 
 a{
@@ -55,13 +245,23 @@ a{
 
 #Buscador,
 .Been-listen input{
-    background-color: #000000;
+    background-color: #121212;
     color: white;
     border: 1px solid #434343;
     padding: 10px;
-    width: 300px;
+    width: 100%;
+    max-width: 540px;
     box-sizing: border-box;
     border-radius: 20px;
+}
+
+#Buscador{
+    width: 220px;
+}
+
+.Been-listen input{
+    width: 100%;
+    max-width: none;
 }
 
 #logo-img{
