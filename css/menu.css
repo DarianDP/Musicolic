@@ -5,6 +5,7 @@ body{
     background-color: #191919;
 }
 
+
 button,
 input{
     font-family: inherit;
@@ -52,15 +53,64 @@ input{
 .reviews-rules{
     box-sizing: border-box;
     width: 700px;
-    min-height: 250px;
+    margin-bottom: 2px;
     padding: 20px 0;
     background-color: #252424;
-    border-radius: 20px;
+    border-radius: 7px;
+}
+
+.album-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 6px;
+}
+
+.artist-review-container{
+    margin: 4px 0 0;
+}
+
+.artist-redirect{
+    display: inline-block;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.artist-redirect .artist{
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.artist-redirect:hover .artist{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.album-redirect{
+    display: inline-block;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.album-redirect .title{
+    transition: transform 0.2s ease, filter 0.2s ease;
+    transform-origin: left center;
+}
+
+.album-redirect:hover .title{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.artist{
+    margin: 0;
+    color: white;
 }
 
 .album-header{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 16px;
     margin-left: 20px;
 }
@@ -70,12 +120,25 @@ input{
     height: 96px;
     object-fit: cover;
     border-radius: 12px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.album-header img:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
 
 .album-header .title{
     align-self: flex-start;
-    margin: 18px 0 0;
+    margin: 0;
     color: white;
+}
+
+.review-title{
+    margin: 16px 0 0;
+    padding: 0 20px;
+    color: white;
+    text-align: left;
 }
 
 .rating{
