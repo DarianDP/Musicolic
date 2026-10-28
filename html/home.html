@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/menu.css">
     <script src="/script/home.js" defer></script>
-    <title>Home</title>
+    <title>Musicolic</title>
+    <link rel="icon" href="/css/img/Orbiting_Music_Emblem-removebg-preview.png" >
 </head>
 
 
@@ -13,13 +14,15 @@
     <div class="header">
 
     
-        <img src="/css/img/Orbiting_Music_Emblem-removebg-preview.png" alt="Logo" id="logo-img">
+        <a href="/html/home.html" class="logo-link" aria-label="Musicolic home">
+            <img src="/css/img/Orbiting_Music_Emblem-removebg-preview.png" alt="Logo" id="logo-img">
+        </a>
 
         <input type="text" placeholder="Search Music" id="Buscador" >
 
-        <a href="">Music</a>
-        <a href="">Reviews</a>
-        <a href="">Lists</a>
+        <a href="" class="head">Music</a>
+        <a href="/html/reviews.html" class="head">Reviews</a>
+        <a href="" class="head">Lists</a>
 
         <div class="user-navigation">
             <button class="add-content" title="Add Content">
@@ -43,13 +46,13 @@
                 <hr class="listen-divider">
                 <div class="listen-actions">
                     <button id="rate-album">⭐ Rate an Album</button>
-                    <button id="create-list">📋 Create a List</button>
+                    <button id="create-list">Create a List</button>
                 </div>
             </div>
             <h3 id="p-reviews">Popular Reviews</h3>
 
             <div class="reviews-container"> 
-                <div class="reviews-rules"><!--1-->
+                <div class="reviews-rules" data-review-id="showgirl-encore"><!--1-->
                     <div class="album-header">
 
                     <img src="/css/img/taylor.jpeg" class="album cover">
@@ -104,7 +107,7 @@
 
                     </div>
 
-                    <div class="reviews-rules"><!--2-->
+                    <div class="reviews-rules" data-review-id="corsa"><!--2-->
                     <div class="album-header">
 
                     <img src="/css/img/corsa.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
@@ -161,7 +164,7 @@ Pero ojo, hay ciertos detrás que faltan como el más importante, me esperaba m�
 
                     </div>
 
-                     <div class="reviews-rules"><!--3-->
+                     <div class="reviews-rules" data-review-id="mr-morale"><!--3-->
                     <div class="album-header">
 
                     <img src="/css/img/mr moreale.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
@@ -216,7 +219,7 @@ Pero ojo, hay ciertos detrás que faltan como el más importante, me esperaba m�
 
                     </div>
 
-                    <div class="reviews-rules"><!--4-->
+                    <div class="reviews-rules" data-review-id="atp"><!--4-->
                     <div class="album-header">
 
                     <img src="/css/img/atp.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
@@ -285,7 +288,7 @@ Mejores track: Blamegame / Tarde o temprano / BOBOMENSOTONTO / MIATA</p>
 
                     </div>
 
-                     <div class="reviews-rules"><!--5-->
+                     <div class="reviews-rules" data-review-id="debi-tirar-mas-fotos"><!--5-->
                     <div class="album-header">
 
                     <img src="/css/img/dbtm.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
@@ -342,7 +345,7 @@ Favorite Tracks: NUEVAYol, BAILE INOLViIABLE, DtMF, LO QUE LE PASO A HAWAIi, CAF
 
                     </div>
 
-                    <div class="reviews-rules"><!--6-->
+                    <div class="reviews-rules" data-review-id="data"><!--6-->
                     <div class="album-header">
 
                     <img src="/css/img/data.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
@@ -398,17 +401,131 @@ Mis favoritas son "Fantasma AVC", "Paranormal", "Si preguntan por mi" y "11 y On
 
                     </div>
 
-                    </div class reviews-container>
+                    </div>
                     
                 </div>
 
+        <div class="section-2">
+
+            <div class="popula-releases">
+                <h3>Popular Releases</h3>
             </div>
 
+            <div class="releases-background">
+
+                <div class="albums-release">
+
+                    <div class="album-header">
+
+                    <div class="album-details"> <!--1-->
+                        <img src="/css/img/data.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <a href="" class="album-redirect">
+                            <h4 class="title">DATA</h4>
+                        </a>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Tainy</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="album-details"> <!--2-->
+                        <img src="/css/img/mr moreale.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <a href="" class="album-redirect">
+                            <h4 class="title">Mr. Morale & The Big Steppers</h4>
+                        </a>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Tainy</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                     <div class="album-details"> <!--3-->
+                        <img src="/css/img/mosca.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <a href="" class="album-redirect">
+                            <h4 class="title">mosca</h4>
+                        </a>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">NSQK</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="album-header 2">
+
+                    <div class="album-details"> <!--4-->
+                        <img src="/css/img/utopia.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <a href="" class="album-redirect">
+                            <h4 class="title">UTOPIA</h4>
+                        </a>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Travis Scott</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="album-details"> <!--5-->
+                        <img src="/css/img/to pinp.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <a href="" class="album-redirect">
+                            <h4 class="title">To Pimp A Butterfly</h4>
+                        </a>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Kendrick Lamar</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                     <div class="album-details"> <!--6-->
+                        <img src="/css/img/omakase.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <a href="" class="album-redirect">
+                            <h4 class="title">OMAKASE</h4>
+                        </a>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Alvaro Díaz</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
             
-        
 
-        <div class="section-2"></div>
+        </div>
 
+        <div class="footer-margin"></div>
+        <footer class="footer">
+            <p class="divisor-footer">
+            <span><a href="">About</a>•</span>
+            <span><a href="">News</a>•</span>
+            <span><a href="">Apps</a>•</span>
+            <span><a href="">Contact</a>•</span>
+            <span><a href="">Help</a>•</span>
+            
+            <span><a href="">Creator</a>•</span>
+            <span><a href="">Instagram</a></span>
+
+            <p>2026 Musicolic AB, All rights reserved</p>
+
+            <a href="/index.html">
+            <button class="botton">Back To Top</button>
+            </a>
+            
+
+        </footer>
+
+    </div>
+</div>
 
 </body>
 </html>

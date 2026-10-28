@@ -1,6 +1,5 @@
-const reviewId = "wakala";
-
 document.querySelectorAll(".user-others-interaction button").forEach((button) => {
+    const reviewId = button.closest(".reviews-rules").dataset.reviewId;
     const reaction = button.dataset.reaction;
     const storageKey = `musicolic:review:${reviewId}:${reaction}`;
     const interaction = JSON.parse(localStorage.getItem(storageKey) || '{"count":0,"voted":false}');
