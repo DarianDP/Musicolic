@@ -20,3 +20,29 @@ document.querySelectorAll(".user-others-interaction button").forEach((button) =>
         button.setAttribute("aria-pressed", String(interaction.voted));
     });
 });
+
+const musicMenuButton = document.querySelector(".musiquitapa");
+const musicOptions = document.querySelector(".music-options");
+
+if (musicMenuButton && musicOptions) {
+    const setMusicOptionsVisible = (visible) => {
+        musicMenuButton.setAttribute("aria-expanded", String(visible));
+        musicOptions.hidden = !visible;
+    };
+
+    musicMenuButton.addEventListener("click", () => {
+        setMusicOptionsVisible(musicOptions.hidden);
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!musicMenuButton.contains(event.target) && !musicOptions.contains(event.target)) {
+            setMusicOptionsVisible(false);
+        }
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            setMusicOptionsVisible(false);
+        }
+    });
+}

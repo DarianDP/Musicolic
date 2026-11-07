@@ -12,6 +12,9 @@ input{
 }
 
 .header{
+    position: sticky;
+    top: 0;
+    z-index: 20;
     background-color: #252424;
     color: white;
     box-sizing: border-box;
@@ -26,6 +29,75 @@ input{
     color: white;
     margin-left: 35px;
 }
+
+.music-menu{
+    position: relative;
+}
+
+.musiquitapa{
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.music-options{
+    position: absolute;
+    top: calc(100% + 18px);
+    left: 50%;
+    z-index: 10;
+    background-color: #191919;
+    color: white;
+    font-family: inherit;
+    height: 375px;
+    width: 213px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-options[hidden]{
+    display: none;
+}
+
+.music-menu-options{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    height: 60px;
+    width: 209px;
+    
+}
+#mieldayesemargin{
+    margin: 0px;
+}
+
+
+
+.music-menu-options,h5{
+
+    color: white;
+    
+}
+
+.music-menu-options h5{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+ 
+    
+}
+
+
 
 .menu-papa{
     background-color: #191919;
@@ -95,6 +167,7 @@ input{
     flex-direction: column;
     align-items: flex-start;
     margin-top: 6px;
+    cursor: pointer;
 }
 
 .albums-release{
@@ -381,6 +454,15 @@ a{
     margin-left: 24px;
 }
 
+.musiquitapa:hover{
+    transform: none;
+    filter: brightness(1.2);
+}
+
+.musiquitapa:nth-of-type(2){
+    margin-left: 24px;
+}
+
 .header .logo-link{
     display: block;
     flex: 0 0 100px;
@@ -479,3 +561,9 @@ color:darkgray;
     
 }
 
+.divisor-footer a:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    color: yellow;
+    
+}

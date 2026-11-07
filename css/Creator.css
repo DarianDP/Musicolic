@@ -1,0 +1,19 @@
+
+.album-header{
+    padding: 8px;
+}
+
+.top-ratings{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 20px;
+}
+#estrellita{
+    margin-right: 18px   ;
+}
+.title{
+    width: max-content;
+    
+
+}
