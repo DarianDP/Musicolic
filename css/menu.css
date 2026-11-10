@@ -51,7 +51,7 @@ input{
     background-color: #191919;
     color: white;
     font-family: inherit;
-    height: 375px;
+    height: 270px;
     width: 213px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -60,6 +60,8 @@ input{
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .music-options[hidden]{
     display: none;

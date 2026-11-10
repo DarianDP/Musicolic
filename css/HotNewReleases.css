@@ -1,0 +1,37 @@
+.reviews-rules{
+    background-color: #191919;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    
+}
+
+.album-header{
+    display: block;
+}
+
+.menu-papa{
+    display: block;
+}
+
+.album.cover{
+    height: 144px;
+    width: 144px;
+}
+
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 150px;;
+    text-overflow: ellipsis;
+}
+
+#p-reviews{
+    margin-left: 189px;
+    
+}
+
+.reviews-container{
+    margin-top: 0px;
+}
