@@ -35,3 +35,33 @@
 .reviews-container{
     margin-top: 0px;
 }
+
+.album-details{
+    align-items: center;
+}
+
+.date-container{
+    background-color: gray;
+    height: 25px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 47px;
+    bottom: 20px;
+    
+}
+
+
+
+.photo-news-container:hover{
+     transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.photo-news-container{
+    height: 150px;
+}

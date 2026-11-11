@@ -204,6 +204,11 @@ input{
     text-align: center;
 }
 
+.head.musiquitapa:hover{
+     transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
 .albums-release h4.title{
     max-width: 13ch;
     overflow: hidden;
@@ -521,12 +526,17 @@ a{
 }
 
 .add-content{
-   background-color: transparent;
+   background-color: rgba(128, 128, 128, 0.056);
    border: none;
-   max-width: 50px;
-   max-height: 50px;
+   max-width: 40px;
+   max-height: 40px;
    cursor: pointer;
    transition: transform 0.2s ease, filter 0.2s ease;
+   border-radius: 20px;
+   margin: 0px;
+   
+   
+   
 }
 
 .add-content:hover{
@@ -535,9 +545,9 @@ a{
 }
 
 .add-content-image{
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 5px;
+    max-width: 40px;
+    max-height: 40px;
+    
 }
 
 .divisor-footer,a,p{

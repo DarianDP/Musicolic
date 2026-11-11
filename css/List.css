@@ -1,0 +1,65 @@
+.album-header{
+    display: block;
+   
+   
+}
+
+.album-cover{
+  
+  position:relative;
+  overflow-y:hidden;
+  overflow-x: hidden;
+  
+  
+}
+
+.album-organization{
+    height: 100px;
+    width: 644px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.album1{
+    position: relative;
+}
+
+.album2{
+    position: relative;
+    right: 20px;
+}
+
+.album3{
+    position: relative;
+    right: 40px;
+}
+
+.album4{
+    position: relative;
+    right: 60px;
+
+    
+}
+
+.album5{
+    position: relative;
+    right: 80px;
+}
+
+.album6{
+    position: relative;
+    right: 100px;
+}
+
+.album7{
+    position: relative;
+    right: 120px;
+}
+
+.album8{
+    position: relative;
+    right: 140px;
+}
+
