@@ -16,8 +16,11 @@ searchimput.addEventListener("focus", () => {
 
     album.forEach(album => {
         const albumName = album.querySelector("h3").textContent.toLowerCase();
+        const artistName = album.querySelector("h5").textContent.toLocaleLowerCase();
+
+        const Fitrarboth = albumName + " " +artistName;
       
-        if (seachvalue === "" || albumName.includes(seachvalue)) {
+        if (seachvalue === "" || Fitrarboth.includes(seachvalue)) {
             album.style.display = "";
            
         }
@@ -33,8 +36,10 @@ searchimput.addEventListener("input", () => {
     album.forEach(album => {
 
         const albumName = album.querySelector("h3").textContent.toLowerCase();
+        const artistName = album.querySelector("h5").textContent.toLocaleLowerCase();
+        const Fitrarboth = albumName + " " +artistName;
 
-        if (albumName.includes(seachvalue)){
+        if (Fitrarboth.includes(seachvalue)){
             album.style.display = "";
         }else{
             album.style.display = "none";
@@ -50,3 +55,6 @@ searchimput.addEventListener("blur", () => {
         background.style.display ="none"
     }, 200); 
 });
+
+
+
