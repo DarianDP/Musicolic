@@ -173,22 +173,43 @@ input{
 }
 
 .display-cards{
-    background-color: rgb(25, 25, 25);
+    
+    background-color: rgb(20, 20, 21);
     display: flex;
     flex-direction: column;
+    min-height:300px;
+    width: 270px;   
+    border-radius: 10px;
 
+}
+
+.albums-names{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 .album-card{
     display: flex;
-    margin: 7px    ;
+    margin: 7px;
+    margin-left: 14px;
+}
+
+.album-card:hover{
+    background-color: rgba(128, 128, 128, 0.11);
 }
 
 .album-card-artist-name{
-    display: flex;
-    flex-direction: column;
+   white-space: nowrap;
     margin: 3px;
-   
+    margin-left: 15px;
+}
+
+.seach-album-aling{
+display: flex;
+flex-direction: column;
 }
 
 .album-card-img{
@@ -200,8 +221,41 @@ input{
  .album-card-name{
     margin: 0px;
     color: white;
-    text-align: center;
+    flex-direction: row;
+    margin-left: 15px;
+    text-wrap: nowrap;
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
  }
+
+ .cards-container{
+    background-color: rgb(25, 25, 25);
+    height: 325px;
+    width: 280px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 270px;
+    z-index: 1000;
+    top: 70px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+ }
+
+ .cards-container::-webkit-scrollbar {
+    width: 8px;
+}
+.cards-container::-webkit-scrollbar-track {
+    background: rgb(25, 25, 25);
+}
+.cards-container::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
 
 .albums-release{
     display: flex;
@@ -524,7 +578,7 @@ a{
     width: 100%;
     max-width: 540px;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 #Buscador{
