@@ -172,6 +172,37 @@ input{
     cursor: pointer;
 }
 
+.display-cards{
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.album-card{
+    display: flex;
+    margin: 7px    ;
+}
+
+.album-card-artist-name{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+   
+}
+
+.album-card-img{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+ .album-card-name{
+    margin: 0px;
+    color: white;
+    text-align: center;
+ }
+
 .albums-release{
     display: flex;
     flex-wrap: wrap;
@@ -526,17 +557,45 @@ a{
 }
 
 .add-content{
-   background-color: rgba(128, 128, 128, 0.056);
+   background-color: rgba(25, 25, 25, 0.259);
    border: none;
-   max-width: 40px;
-   max-height: 40px;
+   max-width: 30px;
+   max-height: 30px;
    cursor: pointer;
    transition: transform 0.2s ease, filter 0.2s ease;
    border-radius: 20px;
    margin: 0px;
+    
    
    
    
+}
+
+.User-profile-login{
+    max-width: 30px;
+    max-height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.User-profile-login-photo{
+    max-width: 32px;
+    max-height: 32px; 
+    border-radius: 4px;
+    position: relative;
+    top: 4px;
+    /* background-color:rgba(25, 25, 25, 0.259) ; */
+}
+
+.User-profile-login-photo:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+#Comment-margindemierda{
+    margin: 0px;
 }
 
 .add-content:hover{
@@ -545,8 +604,11 @@ a{
 }
 
 .add-content-image{
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 50px;
+    max-height: 50px;
+    position:relative;
+    right: 8px;
+    bottom: 9px;
     
 }
 
