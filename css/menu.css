@@ -269,7 +269,15 @@ flex-direction: column;
     
  }
 
- 
+ #add-albums-pago2,
+ #add-albums-pago{
+    margin-left: 10px;
+ }
+
+ #add-albums-pago2,
+ #add-albums-pago:hover{
+    color: rgb(255, 255, 255);
+ }
 
  
 
@@ -755,3 +763,52 @@ color:darkgray;
 .display-cards2{
     animation: bar2animation 1s ease forwards;
 }
+
+.create-rating{
+    margin: 0px;
+    background-color: #191919;
+    border-radius: 5px;
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+}
+
+.divisor-create{
+    width: 600px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.647);
+    position: absolute;
+    top: 245px;
+    left: 450px;
+    border-radius: 5px;
+}
+
+.add-content-windows{
+    height: 230px;
+    width: 600px;
+    background-color: #191919;
+    border-radius: 5px;
+    position: absolute;
+    left: 450px;
+    top: 248px;
+}
+
+/* .creating-navvar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+} */
+
+.create-rating-text{
+    margin: 0px ;
+}
+
+

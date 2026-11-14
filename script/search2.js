@@ -2,6 +2,7 @@ const searchimput2 = document.getElementById("what-you-been-listen-to")
 const background2 = document.querySelector(".cards-container2")
 const album2 = background2.querySelectorAll(".album-card")
 const result2 = document.querySelectorAll(".display-cards2")
+const add2 = document.getElementById("add-albums-pago2")
 
 
 album2.forEach(album =>{
@@ -31,6 +32,8 @@ background2.style.display = "none"
 searchimput2.addEventListener("input", () => {
 
     const seachvalue = searchimput2.value.toLowerCase();
+    let anunciopa = false;
+
      background2.style.display = "flex";
     
     album2.forEach(album => {
@@ -41,9 +44,20 @@ searchimput2.addEventListener("input", () => {
 
         if (Fitrarboth.includes(seachvalue)){
             album.style.display = "";
+            anunciopa = true;
         }else{
             album.style.display = "none";
         }
+
+
+
+        if(anunciopa){
+            add2.style.display = "none";
+        }else{
+            add2.style.display = "flex";
+        }
+
+
     });
 })
 
