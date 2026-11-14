@@ -211,6 +211,17 @@ input{
     border-radius: 10px;
 }
 
+ .cards-container2::-webkit-scrollbar {
+    width: 8px;
+}
+.cards-container2::-webkit-scrollbar-track {
+    background: rgb(25, 25, 25);
+}
+.cards-container2::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
 .albums-names{
     margin: 0px;
     margin-top: 10px;
@@ -252,11 +263,15 @@ flex-direction: column;
     flex-direction: row;
     margin-left: 15px;
     text-wrap: nowrap;
-    width: 190px;
+    width: 190px ;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow:ellipsis;
     
  }
+
+ 
+
+ 
 
  .cards-container{
     background-color: rgb(25, 25, 25);
@@ -722,4 +737,21 @@ color:darkgray;
     filter: brightness(1.2);
     color: yellow;
     
+}
+
+@keyframes bar2animation {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.display-cards,
+.display-cards2{
+    animation: bar2animation 1s ease forwards;
 }

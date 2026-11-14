@@ -1,7 +1,8 @@
 const searchimput2 = document.getElementById("what-you-been-listen-to")
-const album2 = document.querySelectorAll(".album-card")
-const result2 = document.querySelectorAll(".display-cards2")
 const background2 = document.querySelector(".cards-container2")
+const album2 = background2.querySelectorAll(".album-card")
+const result2 = document.querySelectorAll(".display-cards2")
+
 
 album2.forEach(album =>{
     album.style.display = "none"
@@ -9,26 +10,28 @@ album2.forEach(album =>{
 
 background2.style.display = "none"
 
-searchimput2.addEventListener("focus", () => {
-    const seachvalue = searchimput2.value.toLowerCase().trim();
+// searchimput2.addEventListener("focus", () => {
+//     const seachvalue = searchimput2.value.toLowerCase().trim();
 
-    background2.style.display = "flex";
+    
+   
 
-    album2.forEach(album => {
-        const albumName = album.querySelector("h3").textContent.toLowerCase();
-        const artistName = album.querySelector("h5").textContent.toLocaleLowerCase();
+//     album2.forEach(album => {
+//         const albumName = album.querySelector("h3").textContent.toLowerCase();
+//         const artistName = album.querySelector("h5").textContent.toLocaleLowerCase();
 
-        const Fitrarboth = albumName + " " +artistName;
+//         const Fitrarboth = albumName + " " +artistName;
       
-        if (seachvalue === "" || Fitrarboth.includes(seachvalue)) {
-            album.style.display = "";
-        }
-    });
-});
+//         if (seachvalue === "" || Fitrarboth.includes(seachvalue)) {
+//             album.style.display = "";
+//         }
+//     });
+// });
 
 searchimput2.addEventListener("input", () => {
 
     const seachvalue = searchimput2.value.toLowerCase();
+     background2.style.display = "flex";
     
     album2.forEach(album => {
 

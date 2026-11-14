@@ -1,7 +1,9 @@
 const searchimput = document.getElementById("Buscador")
-const album = document.querySelectorAll(".album-card")
-const result = document.querySelectorAll(".display-cards")
 const background = document.querySelector(".cards-container")
+const album = background.querySelectorAll(".album-card")
+const result = document.querySelectorAll(".display-cards")
+const add = document.getElementById("add-albums-pago")
+
 
 album.forEach(album =>{
     album.style.display = "none"
@@ -30,6 +32,7 @@ searchimput.addEventListener("focus", () => {
 searchimput.addEventListener("input", () => {
 
     const seachvalue = searchimput.value.toLowerCase();
+    let anunciopa = false;
     
     
 
@@ -41,9 +44,22 @@ searchimput.addEventListener("input", () => {
 
         if (Fitrarboth.includes(seachvalue)){
             album.style.display = "";
+            anunciopa = true;
         }else{
             album.style.display = "none";
+            
         }
+
+        if (anunciopa){
+            add.style.display = "none"
+        }else{
+            add.style.display = "flex"
+        }
+         
+            
+        
+
+
 
         
     });
