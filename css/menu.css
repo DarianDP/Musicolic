@@ -269,12 +269,18 @@ flex-direction: column;
     
  }
 
+ #add-albums-pago3{
+    transform: none;
+ }
+
+
  #add-albums-pago2,
  #add-albums-pago{
     margin-left: 10px;
  }
 
  #add-albums-pago2,
+ #add-albums-pago3,
  #add-albums-pago:hover{
     color: rgb(255, 255, 255);
  }
@@ -296,6 +302,17 @@ flex-direction: column;
     overflow-x: hidden;
     border-radius: 10px;
  }
+
+  .add-search-background::-webkit-scrollbar {
+    width: 8px;
+}
+.add-search-background::-webkit-scrollbar-track {
+    background: rgb(25, 25, 25);
+}
+.add-search-background::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
 
  .cards-container::-webkit-scrollbar {
     width: 8px;
@@ -877,6 +894,7 @@ color:darkgray;
 .albums-rate{
     margin-left: 15px;
     display: flex;
+    flex-direction: column;
     height: fit-content;
     width: auto;
     /* align-items: center; */
