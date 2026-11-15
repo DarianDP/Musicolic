@@ -780,7 +780,8 @@ color:darkgray;
 
 
 .display-cards,
-.display-cards2{
+.display-cards2,
+.add-search-background{
     animation: bar2animation 1s ease forwards;
 }
 
@@ -867,6 +868,9 @@ color:darkgray;
     width:565px ;
     left: 469px;
     top: 330px;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
     
 }
 
@@ -877,6 +881,26 @@ color:darkgray;
     width: auto;
     /* align-items: center; */
    
+}
+
+.backdrop{
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.65); 
+    backdrop-filter: blur(2px);            
+    -webkit-backdrop-filter: blur(6px);    
+    z-index: 999;
+}
+
+.add-content-windows,
+.divisor-create,
+.create-rating,
+.add-search-background{
+    z-index: 1000;
 }
 
 

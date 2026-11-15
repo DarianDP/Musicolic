@@ -5,7 +5,8 @@ const selecta = document.getElementById("Add-contenidopa");
 const addvaina = document.querySelector(".add-content-windows")
 const addvaina2 = document.querySelector(".divisor-create")
 const addvaina3 = document.querySelector(".create-rating")
-
+const cancelButton = document.querySelector(".cancel-button")
+const backdrop = document.querySelector(".backdrop")
 
 
 
@@ -14,6 +15,7 @@ selecta.addEventListener("click" ,() =>{
     addvaina.style.display = "flex";
     addvaina2.style.display = "flex";
     addvaina3.style.display = "flex";
+    backdrop.style.display ="flex";
 
 
 
@@ -30,6 +32,7 @@ document.addEventListener("click",(Event) =>{
     addvaina.style.display = "none";
     addvaina2.style.display = "none";
     addvaina3.style.display = "none";
+     backdrop.style.display ="none";
     }
 })
 
@@ -42,11 +45,44 @@ const background3 = document.querySelector(".add-search-background");
 
 
 searchAdd.addEventListener("input",() =>{
-    const search = searchAdd.ariaValueMax.toLocaleUpperCase();
-   const album3 = document.querySelectorAll(".album-card");
-  background3.style.display ="flex";
-  
+    const search = searchAdd.value.toLowerCase();
+
+    
+    const contenedorClean = document.querySelector(".cards-container2")
+   const album3 = contenedorClean.querySelectorAll(".album-card");
+   background3.innerHTML = "";
+    
+
+   album3.forEach(album =>{
+    const albumName = album.querySelector("h3").textContent.toLowerCase();
+    const artistName = album.querySelector("h5").textContent.toLowerCase();
+    const Fitrarboth = albumName + " " +artistName;
+
+    if(Fitrarboth.includes(search)){
+            
+    const clone = album.cloneNode(true);
+    clone.style.display = "flex";
+    background3.appendChild(clone);
+    background3.style.display = "flex"
+            
+        }
+         
+   })
 
 });
+
+searchAdd.addEventListener("blur", () =>{
+    setTimeout(() =>{
+        background3.style.display = "none";
+    })
+})
+
+cancelButton.addEventListener("click", () => {
+    addvaina.style.display = "none";
+    addvaina2.style.display = "none";
+    addvaina3.style.display = "none";
+     backdrop.style.display ="none";
+})
+
 
 
