@@ -1,0 +1,56 @@
+.album-data{
+    
+}
+
+.album-data-header{
+    height: 500px;
+    
+    background-color: rgb(37, 36, 36);
+}
+
+#album-divisor{
+    background-color: rgba(240, 248, 255, 0.268);
+    height: 2px;
+}
+
+.album-information{
+display: flex;
+flex-direction: row;
+   
+}
+
+.img-holder{
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 25px;
+    max-height: 330px;
+    max-width: 330px; 
+}
+
+.extra-album-information{
+    display: block;
+    margin-top: 180px;
+    
+}
+
+.flex-extra-row{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+#year{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#album-name,
+#artist-name{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#album-name{
+    font-size: 35px;
+}
