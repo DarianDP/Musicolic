@@ -4,6 +4,10 @@
 
 .album-data-header{
     height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
     
     background-color: rgb(37, 36, 36);
 }
@@ -30,7 +34,7 @@ flex-direction: row;
 
 .extra-album-information{
     display: block;
-    margin-top: 180px;
+    margin-top: 230px;
     
 }
 
@@ -41,9 +45,17 @@ flex-direction: row;
     
 }
 #year{
-    margin-right: 10px;
-    margin-left: 10px;
+    
 }
+
+.circle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
 #album-name,
 #artist-name{
     color: white;
@@ -53,4 +65,88 @@ flex-direction: row;
 
 #album-name{
     font-size: 35px;
+}
+
+#artist-img{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    
+}
+
+.extra-roow-artist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.albums-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 150px;
+    
+    /* height:fit-content; */
+}
+
+.ratings-media{
+    margin-top: 50px;
+    /* margin-right: 450PX; */
+    text-align: center ;
+    padding-right: 20px;
+    border-right: 2px gray solid;
+}
+
+.ratings-media2{
+    margin-top: 50px;
+    /* margin-right: 450PX; */
+    text-align: center ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px gray solid;
+}
+.ratings-media3{
+    margin-top: 50px;
+    /* margin-right: 450PX; */
+    text-align: center ;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.albums-social,h2,h3{
+    margin: 3px;
+    
+}
+
+.albums-social,h3{
+    color: rgb(169, 169, 169);
+}
+
+#ratings-total{
+    color: white;
+}
+
+.rate-album-button{
+    position: absolute;
+    bottom: 225px;
+    left: 897px;
+    width: 460px;
+    height: 60px;
+    background-color: rgb(121, 117, 117);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+.rate-album-button:hover{
+    background-color: rgba(255, 255, 46, 0.9);
+}
+
+#rate-album-wakata:hover{
+    color: black;
 }
