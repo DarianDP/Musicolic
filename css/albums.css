@@ -23,7 +23,7 @@ flex-direction: row;
    
 }
 
-.img-holder{
+#img-holder{
     border-radius: 5px;
     margin-left: 150px;
     margin-top: 50px;
@@ -149,4 +149,24 @@ flex-direction: row;
 
 #rate-album-wakata:hover{
     color: black;
+}
+.buttons{
+    margin-top: 35px;
+    margin-left: 420px;
+}
+
+.listen-on{
+     background-color: rgb(121, 117, 117);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    height: 60px;
+    width: 300px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.listen-on:hover{
+    background-color:  rgba(121, 117, 117, 0.66);
 }
