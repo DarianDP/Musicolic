@@ -116,7 +116,7 @@ searchAdd.addEventListener("input",() =>{
 searchAdd.addEventListener("blur", () =>{
     setTimeout(() =>{
         background3.style.display = "none";
-    })
+    },200)
 })
 
 cancelButton.addEventListener("click", () => {
@@ -125,6 +125,8 @@ cancelButton.addEventListener("click", () => {
     addvaina3.style.display = "none";
      backdrop.style.display ="none";
 })
+
+
 
 
 

@@ -234,6 +234,7 @@ input{
     display: flex;
     margin: 7px;
     margin-left: 14px;
+    cursor: pointer;
 }
 
 .album-card:hover{
@@ -357,6 +358,11 @@ flex-direction: column;
     text-align: center;
 }
 
+.title:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
 .head.musiquitapa:hover{
      transform: scale(1.05);
     filter: brightness(1.2);
@@ -390,8 +396,8 @@ flex-direction: column;
 }
 
 .artist-redirect:hover .artist{
-    transform: scale(1.05);
-    filter: brightness(1.2);
+    transform: scale(1.10);
+    filter: brightness(1.3);
 }
 
 .album-redirect{
