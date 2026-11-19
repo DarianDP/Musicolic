@@ -427,6 +427,7 @@ flex-direction: column;
     align-items: flex-start;
     gap: 16px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .album-header img{

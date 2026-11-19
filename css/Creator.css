@@ -1,6 +1,7 @@
 
 .album-header{
     padding: 8px;
+    cursor: pointer;
 }
 
 .top-ratings{

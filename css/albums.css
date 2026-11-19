@@ -34,7 +34,7 @@ flex-direction: row;
 
 .extra-album-information{
     display: block;
-    margin-top: 230px;
+    margin-top: 200px;
     
 }
 
@@ -64,6 +64,10 @@ flex-direction: row;
 }
 
 #album-name{
+    /* text-wrap-mode: nowrap; */
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
     font-size: 35px;
 }
 
