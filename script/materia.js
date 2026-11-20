@@ -2,7 +2,7 @@ const albumsdata = {
     "corsa": {
         title: "Corsa",
         artist: "Eladio Carrion",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/45/49/16/45491688ae914003f17bc360b76008d3.jpg",
         Year: "2026",
         cover: "/css/img/corsa.jpeg",
         description: "Album by Eladio Carrión.",
@@ -11,7 +11,7 @@ const albumsdata = {
     "atp": {
         title: "ATP",
         artist: "NSQK",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/62/d8/b3/62d8b3c9e24bff60ab48046da8586851.jpg",
         Year: "2025",
         cover: "/css/img/atp.jpeg",
         description: "Album by NSQK.",
@@ -20,7 +20,7 @@ const albumsdata = {
     "utopia": {
         title: "Utopia",
         artist: "Travis Scott",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/c8/06/ec/c806ecc752f724191688ce0a0c74390d.jpg",
         Year: "2023",
         cover: "/css/img/utopia.jpeg",
         description: "Travis Scott's fourth studio album, with a dark, cinematic psychedelic trap sound and many guest features.",
@@ -29,7 +29,7 @@ const albumsdata = {
     "data": {
         title: "Data",
         artist: "Tainy",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/e0/e3/82/e0e3824527ce81f75e3eebd1a6ab25f8.jpg",
         Year: "2023",
         cover: "/css/img/data.jpeg",
         description: "Debut studio album by producer Tainy, mixing reggaeton, electronic and Latin pop with many guest artists.",
@@ -38,7 +38,7 @@ const albumsdata = {
     "mr-morale": {
         title: "Mr. Morale & The Big Steppers",
         artist: "Kendrick Lamar",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/53/fa/1a/53fa1a3f5b48ee3789f3587b24595b20.jpg",
         Year: "2022",
         cover: "/css/img/mr moreale.jpeg",
         description: "A personal, introspective double album about therapy, family, fame and healing.",
@@ -47,7 +47,7 @@ const albumsdata = {
     "life-of-a-showgirl-encore": {
         title: "The Life of a Showgirl: The Encore",
         artist: "Taylor Swift",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/0c/36/68/0c3668976e19196a3bace72a603bab31.jpg",
         Year: "2026",
         cover: "/css/img/taylor.jpeg",
         description: "Expanded edition of Taylor Swift's pop album The Life of a Showgirl.",
@@ -56,7 +56,7 @@ const albumsdata = {
     "debi-tirar-mas-fotos": {
         title: "DeBÍ TiRAR MáS FOToS",
         artist: "Bad Bunny",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/87/ff/b5/87ffb57a598143c40553136f0a25dfd4.jpg",
         Year: "2025",
         cover: "/css/img/dbtm.jpeg",
         description: "A tribute to Puerto Rican culture, mixing reggaeton with plena, salsa and traditional island sounds.",
@@ -65,7 +65,7 @@ const albumsdata = {
     "mosca": {
         title: "mosca",
         artist: "NSQK",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/62/d8/b3/62d8b3c9e24bff60ab48046da8586851.jpg",
         Year: "2026",
         cover: "/css/img/mosca.jpeg",
         description: "Album by NSQK.",
@@ -74,7 +74,7 @@ const albumsdata = {
     "to-pimp-a-butterfly": {
         title: "To Pimp A Butterfly",
         artist: "Kendrick Lamar",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/53/fa/1a/53fa1a3f5b48ee3789f3587b24595b20.jpg",
         Year: "2015",
         cover: "/css/img/to pinp.jpeg",
         description: "A landmark album blending jazz, funk and hip-hop, dealing with race, fame and identity.",
@@ -83,7 +83,7 @@ const albumsdata = {
     "omakase": {
         title: "OMAKASE",
         artist: "Alvaro Díaz",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/75/0d/2d/750d2da3f7291731bc79e8467aa502ea.jpg",
         Year: "2026",
         cover: "/css/img/omakase.jpeg",
         description: "Album by Puerto Rican artist Alvaro Díaz.",
@@ -92,7 +92,7 @@ const albumsdata = {
     "las-leyendas-nunca-mueren": {
         title: "Las Leyendas Nunca Mueren",
         artist: "Anuel AA",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/0c/30/39/0c3039bd7f0c5218cc5f6f2d22150fcf.jpg",
         Year: "2021",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/be/4c/22be4cc5-a7f2-eadc-359b-e338fbe3d7ee/196292821857.jpg/592x592bb.webp",
         description: "Anuel AA's album, a tribute to Latin trap legends.",
@@ -101,7 +101,7 @@ const albumsdata = {
     "yhlqmdlg": {
         title: "YHLQMDLG",
         artist: "Bad Bunny",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/87/ff/b5/87ffb57a598143c40553136f0a25dfd4.jpg",
         Year: "2020",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/84/ed/02/84ed029b-6381-ccff-753e-12a125737f73/Job78daa6f5-9f28-4373-abbb-96eb4e16655c-108238557-PreviewImage_PreviewImageIntermediate_preview_image_nonvideo-Time1607901997890.png/592x592bb.webp",
         description: "Bad Bunny's second solo album, a celebration of classic reggaeton and perreo (“Yo Hago Lo Que Me Da La Gana”).",
@@ -110,7 +110,7 @@ const albumsdata = {
     "timelezz": {
         title: "Timelezz",
         artist: "Jhayco",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/ec/b7/12/ecb7121e83f7c30886f6cdd195eedcfd.jpg",
         Year: "2021",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/80/5b/07/805b070d-28f7-67ca-0c79-a91201a12737/21UMGIM70562.rgb.jpg/592x592bb.webp",
         description: "Album by Puerto Rican artist Jhay Cortez.",
@@ -119,7 +119,7 @@ const albumsdata = {
     "sauce-boyz": {
         title: "Sauce Boyz",
         artist: "Eladio Carrion",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/45/49/16/45491688ae914003f17bc360b76008d3.jpg",
         Year: "2020",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/8e/86/f18e8699-3a9e-982f-3d89-56abda3c52f4/194491874995.jpg/592x592bb.webp",
         description: "Eladio Carrión's album that established his Latin trap style.",
@@ -128,7 +128,7 @@ const albumsdata = {
     "sen2-kbrn-vol-2": {
         title: "SEN2 KBRN, VOL. 2",
         artist: "Eladio Carrion",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/45/49/16/45491688ae914003f17bc360b76008d3.jpg",
         Year: "2022",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c8/0a/36/c80a3684-20c2-13e0-9b9c-c29e3ac0cebf/197187385300.jpg/592x592bb.webp",
         description: "Second volume of Eladio Carrión's SEN2 KBRN series.",
@@ -137,7 +137,7 @@ const albumsdata = {
     "blonde": {
         title: "Blonde",
         artist: "Frank Ocean",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/88/a9/f4/88a9f4715d57628afb17d122372c1cf8.jpg",
         Year: "2016",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/592x592bb.webp",
         description: "An experimental R&B album about love, memory and identity.",
@@ -155,7 +155,7 @@ const albumsdata = {
     "thriller": {
         title: "Thriller",
         artist: "Michael Jackson",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/18/84/67/188467b11cd571284267428d0d84e2df.jpg",
         Year: "1982",
         cover: "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
         description: "The best-selling album of all time, mixing pop, rock, funk and R&B.",
@@ -173,7 +173,7 @@ const albumsdata = {
     "good-kid-maad-city": {
         title: "good kid, m.A.A.d city",
         artist: "Kendrick Lamar",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/53/fa/1a/53fa1a3f5b48ee3789f3587b24595b20.jpg",
         Year: "2012",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ba/c3/c5/bac3c531-dc7e-d0da-d785-fe9f17219950/12UMGIM52990.rgb.jpg/592x592bb.webp",
         description: "A concept album telling a story of growing up in Compton.",
@@ -182,7 +182,7 @@ const albumsdata = {
     "my-beautiful-dark-twisted-fantasy": {
         title: "My Beautiful Dark Twisted Fantasy",
         artist: "Kanye West",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/9d/4a/10/9d4a10d7335d5ac09dcc1a74f7ef1acb.jpg",
         Year: "2010",
         cover: "https://upload.wikimedia.org/wikipedia/en/f/f0/My_Beautiful_Dark_Twisted_Fantasy.jpg",
         description: "A maximalist hip-hop album about fame, excess and redemption.",
@@ -200,7 +200,7 @@ const albumsdata = {
     "the-college-dropout": {
         title: "The College Dropout",
         artist: "Kanye West",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/9d/4a/10/9d4a10d7335d5ac09dcc1a74f7ef1acb.jpg",
         Year: "2004",
         cover: "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg",
         description: "Kanye West's debut album, mixing soul samples with honest, witty lyrics.",
@@ -209,7 +209,7 @@ const albumsdata = {
     "trap-nema": {
         title: "Easter egg desbloqueado",
         artist: "Crazy Point",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/08/3a/c1/083ac14227d37190f228eaa49ee642c3.jpg",
         Year: "Sigue ahi pa",
         cover: "https://i.pinimg.com/originals/70/0a/37/700a375f4ccf6541331b8f435fafd314.gif",
         description: "Album by Crazy Point.",
@@ -263,7 +263,7 @@ const albumsdata = {
     "individual": {
         title: "INDIVIDUAL",
         artist: "Yan Block",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/d1/da/0e/d1da0e329563ebddf6c5cbca461b0f51.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/51/06/385106df-3b74-8fe1-8c74-91aa223747a9/711641083092.jpg/592x592bb.webp",
         description: "Album by Yan Block.",
@@ -281,7 +281,7 @@ const albumsdata = {
     "no-pasa-nada-hombre": {
         title: "No pasa nada hombre",
         artist: "Clarent",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/07/d7/cf/07d7cf31da582ec0d8f4cbf586336c89.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f4/4e/9df44ed8-2e05-2da4-a4c4-e93be35104dc/1200220208883.jpg/592x592bb.webp",
         description: "Album by Clarent.",
@@ -290,8 +290,8 @@ const albumsdata = {
     "napa-ep": {
         title: "ñapa - EP",
         artist: "ELIKAI",
-        artistImg: "",
-        Year: "2025",
+        artistImg: "https://i.pinimg.com/736x/aa/7a/cf/aa7acf73a5a28f274964ce41f96e7820.jpg",
+        Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/4e/24/484e240a-f693-8055-b877-c85d522610b6/888193352874-copy-6b543b94.png/592x592bb.webp",
         description: "EP by ELIKAI.",
         Tracks: "6 tracks"
@@ -299,7 +299,7 @@ const albumsdata = {
     "mas-bullshit": {
         title: "+ B******T",
         artist: "Topboy TGR",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/d2/c2/2d/d2c22da952a13ab3ff69ee81dc82bad6.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/56/47/2f564714-7494-bc02-495d-cdea5eafb43e/885288859911.jpg/592x592bb.webp",
         description: "Album by Topboy TGR.",
@@ -308,7 +308,7 @@ const albumsdata = {
     "ubpts-2": {
         title: "UBPTS 2.0",
         artist: "Topboy TGR",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/d2/c2/2d/d2c22da952a13ab3ff69ee81dc82bad6.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/ac/5f/31ac5f8a-65a1-765c-6f6b-11f90b3406e8/711641153832.jpg/592x592bb.webp",
         description: "Album by Topboy TGR.",
@@ -353,7 +353,7 @@ const albumsdata = {
     "rodeo": {
         title: "Rodeo",
         artist: "Travis Scott",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/c8/06/ec/c806ecc752f724191688ce0a0c74390d.jpg",
         Year: "2015",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/87/78/7187786f-70af-fd36-fc7f-a4ba61b65d98/886445454987.jpg/592x592bb.webp",
         description: "Travis Scott's debut studio album, a dark, atmospheric trap record.",

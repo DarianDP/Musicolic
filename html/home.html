@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/menu.css">
     <script src="/script/home.js" defer></script>
+        <script src="/script/releaseButton.js" defer></script>
     <script src="/script/Search.js" defer></script>
     <script src="/script/search2.js" defer></script>
     <script src="/script/materia.js" defer></script>
     <script src="/script/materia-send.js" defer></script>
     <script src="/script/materia-get.js" defer></script>
     <script src="/script/user-navigarion.js" defer></script>
+
+
 
 
 
@@ -492,7 +495,13 @@ Mis favoritas son "Fantasma AVC", "Paranormal", "Si preguntan por mi" y "11 y On
         <div class="section-2">
 
             <div class="popula-releases">
-                <h3>Popular Releases</h3>
+                <h3 id="popular-this-week">Popular this week</h3>
+                <h3 id="hot-releases">Hot new releases</h3>
+                <div class="release&popular">
+                <button id="popular-button">Popular</button>
+                /
+               <button id="releases-button">New</button>
+                </div>
             </div>
 
             <div class="releases-background">
@@ -525,14 +534,14 @@ Mis favoritas son "Fantasma AVC", "Paranormal", "Si preguntan por mi" y "11 y On
                         </div>
                     </div>
 
-                     <div class="album-details" materia-id="mosca"> <!--3-->
-                        <img src="/css/img/mosca.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                     <div class="album-details" materia-id="debi-tirar-mas-fotos"> <!--3-->
+                        <img src="/css/img/dbtm.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
                         <div class="album-redirect">
-                            <h4 class="title">mosca</h4>
+                            <h4 class="title">DeBÍ TiRAR MáS FOToS</h4>
                         </div>
                         <div class="artist-review-container">
                             <a href="" class="artist-redirect">
-                                <h6 class="artist">NSQK</h6>
+                                <h6 class="artist">Bad Bunny</h6>
                             </a>
                         </div>
                     </div>
@@ -567,6 +576,93 @@ Mis favoritas son "Fantasma AVC", "Paranormal", "Si preguntan por mi" y "11 y On
                         </div>
                     </div>
 
+                     <div class="album-details" materia-id="timelezz"> <!--6-->
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/80/5b/07/805b070d-28f7-67ca-0c79-a91201a12737/21UMGIM70562.rgb.jpg/592x592bb.webp" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <div class="album-redirect">
+                            <h4 class="title">Timelezz</h4>
+                        </div>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Jhayco </h6>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+            <div class="albums-news" >
+
+                    <div class="album-header">
+
+                    <div class="album-details" materia-id="no-pasa-nada-hombre"> <!--1-->
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f4/4e/9df44ed8-2e05-2da4-a4c4-e93be35104dc/1200220208883.jpg/592x592bb.webp" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <div class="album-redirect">
+                            <h4 class="title">NO PASA NADA HOMBRE</h4>
+                        </div>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Clarent</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="album-details" materia-id="individual"> <!--2-->
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/51/06/385106df-3b74-8fe1-8c74-91aa223747a9/711641083092.jpg/592x592bb.webp" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <div class="album-redirect">
+                            <h4 class="title">INDIVIDUAL</h4>
+                        </div>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Yan Block</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                     <div class="album-details" materia-id="mosca"> <!--3-->
+                        <img src="/css/img/mosca.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <div class="album-redirect">
+                            <h4 class="title">mosca</h4>
+                        </div>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">NSQK</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="album-header 2">
+
+                    <div class="album-details" materia-id="napa-ep"> <!--4-->
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/4e/24/484e240a-f693-8055-b877-c85d522610b6/888193352874-copy-6b543b94.png/592x592bb.webp" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <div class="album-redirect">
+                            <h4 class="title">ñapa - EP</h4>
+                        </div>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">Elikai</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="album-details" materia-id="mas-bullshit"> <!--5-->
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/56/47/2f564714-7494-bc02-495d-cdea5eafb43e/885288859911.jpg/592x592bb.webp" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
+                        <div class="album-redirect">
+                            <h4 class="title">+ B******T</h4>
+                        </div>
+                        <div class="artist-review-container">
+                            <a href="" class="artist-redirect">
+                                <h6 class="artist">TopBoy TGR</h6>
+                            </a>
+                        </div>
+                    </div>
+
                      <div class="album-details" materia-id="omakase"> <!--6-->
                         <img src="/css/img/omakase.jpeg" class="album cover" alt="The Life of a Showgirl: The Encore album cover">
                         <div class="album-redirect">
@@ -580,8 +676,10 @@ Mis favoritas son "Fantasma AVC", "Paranormal", "Si preguntan por mi" y "11 y On
                     </div>
 
                 </div>
-                
-
+                <!-- <div class="divisor-button"></div> -->
+                <div class="button-redirect">
+                <button id="HotNewRelease-redirect">View more</button>
+                </div>
             </div>
             
 

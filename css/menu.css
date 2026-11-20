@@ -134,6 +134,29 @@ input{
     margin: 0;
 }
 
+.popula-releases{
+    display: flex;
+    justify-content: space-between;
+}
+
+#releases-button,
+#popular-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+#popular-button:hover{
+    color: #ffffffbf;
+}
+
+#releases-button:hover{
+    color: #ffffffbf;
+}
+
 .Been-listen{
     box-sizing: border-box;
     display: flex;
@@ -334,7 +357,20 @@ flex-direction: column;
     padding: 16px;
 }
 
+.albums-news{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 16px;
+}
+
 .albums-release .album-header{
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+.albums-news .album-header{
     justify-content: flex-start;
     margin-left: 0;
 }
@@ -343,7 +379,16 @@ flex-direction: column;
     margin-top: -7px;
 }
 
+.albums-news .album-header:nth-of-type(2){
+    margin-top: -7px;
+}
+
 .albums-release .album-details{
+    align-items: center;
+    margin-top: 5px;
+}
+
+.albums-news .album-details{
     align-items: center;
     margin-top: 5px;
 }
@@ -353,9 +398,55 @@ flex-direction: column;
     height: 120px;
 }
 
+.albums-news .album-details img{
+    width: 120px;
+    height: 120px;
+}
+
 .albums-release .album-header .title{
     margin-top: 8px;
     text-align: center;
+}
+
+.albums-news .album-header .title{
+    margin-top: 8px;
+    text-align: center;
+}
+
+#popular-button.active,
+#releases-button.active{
+    color: #ffea00;
+}
+
+#popular-button,
+#releases-button{
+    padding: 0px;
+}
+
+.divisor-button{
+    width: 400px;
+    height: 1px;
+    background-color: rgb(59, 58, 58);
+}
+
+#HotNewRelease-redirect{
+    border-color:rgba(59, 58, 58, 0.232);
+    
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding-top: 5px;
+    height: 40px;
+    width:400px;
+    border-radius: 3px;
+    background-color: rgb(37, 36, 36);
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#HotNewRelease-redirect:hover{
+    background-color: rgba(77, 72, 72, 0.195);
 }
 
 .title:hover{
@@ -375,7 +466,19 @@ flex-direction: column;
     white-space: nowrap;
 }
 
+.albums-news h4.title{
+    max-width: 13ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .albums-release .artist-review-container{
+    margin-top: 1px;
+    text-align: center;
+}
+
+.albums-news .artist-review-container{
     margin-top: 1px;
     text-align: center;
 }

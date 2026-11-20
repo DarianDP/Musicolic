@@ -5,6 +5,7 @@ const albumWindow = albumsdata[selectId];
 
 if(albumWindow){
     document.getElementById("img-holder").src = albumWindow.cover;
+    document.getElementById("artist-img").src = albumWindow.artistImg;
     document.getElementById("album-name").textContent = albumWindow.title;
     document.getElementById("year").textContent = albumWindow.Year;
     document.getElementById("artist-name").textContent = albumWindow.artist;
