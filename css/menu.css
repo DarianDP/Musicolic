@@ -431,12 +431,13 @@ flex-direction: column;
 
 #HotNewRelease-redirect{
     border-color:rgba(59, 58, 58, 0.232);
-    
+    text-align: center;
     border-left: 0px;
     border-bottom: 0px;
     border-right: 0px;
     padding-top: 5px;
-    height: 40px;
+    padding-bottom: 5px;
+    height: 50px;
     width:400px;
     border-radius: 3px;
     background-color: rgb(37, 36, 36);

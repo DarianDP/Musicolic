@@ -10,6 +10,7 @@ if(albumWindow){
     document.getElementById("year").textContent = albumWindow.Year;
     document.getElementById("artist-name").textContent = albumWindow.artist;
     document.getElementById("tracks-cantidad").textContent = albumWindow.Tracks
+    document.getElementById("listen-on-stream").href = albumWindow.streamUrl
 }else{
     document.getElementById("albums-name").textContent ="Album not found";
 }

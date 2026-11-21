@@ -83,6 +83,7 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 
 .albums-social{
@@ -173,4 +174,91 @@ flex-direction: row;
 
 .listen-on:hover{
     background-color:  rgba(121, 117, 117, 0.66);
+}
+
+#create-review{
+    position: absolute;
+    top: 80px;
+    left: 285px;
+    background-color: rgb(37, 36, 36);
+    /* background-color: rgb(255, 0, 0); */
+    width: 1000px;
+    height: 65px;
+   border-radius: 5px;
+    z-index: 1;
+
+    align-content: center;
+    text-align: center;
+}
+
+#review-create{
+    color: white;
+}
+
+#album-imagen{
+    height: 210px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+#divisor{
+    position: absolute;
+    top: 145px;
+    left: 285px;
+    height: 1px;
+     width: 1000px;
+    background-color: rgba(89, 83, 95, 0.504);
+    z-index: 2;
+}
+
+.rating-background{
+    display: flex;
+    
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    background-color:rgb(37, 36, 36);
+    /* background-color:rgb(14, 91, 255); */
+    left: 285px;
+    top: 145px;
+    border-radius: 5px;
+   
+}
+
+#albums-information{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#album-name2{
+    color: white;
+    margin: 0px;
+    margin: 0px;margin-bottom: 10px;
+
+}
+
+#artist-name2{
+    margin: 0px;
+    color: gray;
+}
+
+
+#albums-information2{
+    display: flex;
+}
+
+.album-detalles{
+    display: block;
+   
+}
+
+.album-ratings{
+    margin-top: 30px;
+}
+
+.rating-h3{
+    color: white;
+    margin-left: 20px;
 }

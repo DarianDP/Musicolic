@@ -5,6 +5,7 @@ const albumRelease = document.querySelector(".albums-release");
 const albumRelease2 = document.querySelector(".albums-news");
 const hot = document.getElementById("popular-this-week");
 const newPopular = document.getElementById("hot-releases");
+const ViewMore = document.getElementById("HotNewRelease-redirect")
 
 albumRelease2.style.display = "none";
 newPopular.style.display ="none"
@@ -34,4 +35,8 @@ popular.addEventListener("click", () =>{
     newPopular.style.display ="none "
     popular.classList.add("active");
 
+})
+
+ViewMore.addEventListener("click",() =>{
+    window.location.href = `HotNewRelease.html`
 })
