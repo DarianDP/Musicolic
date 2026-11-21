@@ -12,6 +12,7 @@
     <script src="/script/materia-get.js" defer></script>
     <script src="/script/user-navigation-backup.js" defer></script>
     <script src="/script/ratingsButton.js" defer></script>
+    <script src="/script/patraButton.js" defer></script>
     <!-- <script src="/script/user-navigarion.js" defer></script> -->
 
 
@@ -164,10 +165,12 @@
             </div>
         </div>
     </div>
-
+    
+    <div class="prendetojoan"></div>
     <div class="rating-send">
         <div id="create-review">
             <h3 id="review-create">Create review</h3>
+            <button id="button-patra" type="button">X</button>
         </div>
         <div id="divisor"></div>
         <form action="post" class="rating-background">
@@ -187,7 +190,7 @@
                     <h3 class="rating-h3">Rating</h3>
 
                 <fieldset id="rating-star">
-                    <input type="radio" name="rating" id="star5" value="5">
+                    <input type="radio" name="rating" id="star5" value="5" required>
                     <label for="star5">★</label>
 
                      <input type="radio" name="rating" id="star4" value="4">
@@ -206,7 +209,7 @@
 
                   <div class="listened-forzao">
                     <h3 id="listened-at">Listened At</h3>
-                    <input type="date" id="time-selector" >
+                    <input type="date" id="time-selector"  required>
                 </div>
 
                 <div class="review-panel">
@@ -214,7 +217,15 @@
                 </div>
 
                 <div>
-                    <input type="text" name="" id="review-title" placeholder="Review title">
+                    <input type="text" name="" id="review-title" placeholder="Review title" required minlength="5" maxlength="500">
+                    <!-- <input type="text" name="" id="review-title-2" placeholder="Add a review..."> -->
+                    <textarea name="" id="review-title-2"  placeholder="Add a review..." required minlength="10" maxlength="5000"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="sumit-button">
+                        <h3>Log album</h3>
+                    </button>   
                 </div>
                
             </div>

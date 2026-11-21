@@ -189,10 +189,16 @@ flex-direction: row;
 
     align-content: center;
     text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
 }
 
 #review-create{
     color: white;
+    margin-top: 20px;
+    margin-left: 450px;
 }
 
 #album-imagen{
@@ -218,7 +224,7 @@ flex-direction: row;
     
     position: absolute;
     width: 1000px;
-    height: 600px;
+    height: 650px;
     background-color:rgb(37, 36, 36);
     /* background-color:rgb(14, 91, 255); */
     left: 285px;
@@ -315,7 +321,7 @@ transition: color 0.15s ease-in-out;
     
 }
 #time-selector:hover{
-    ;
+    
 }
 
 .listened-forzao{
@@ -331,9 +337,7 @@ transition: color 0.15s ease-in-out;
 
 }
 
-.listened-forzao input{
-   
-}
+
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   position: absolute;
@@ -347,15 +351,99 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .review-panel h3{
     margin-left: 20px;
 margin-top: 35px;
+color: white;
 }
 
 #review-title{
+    position: absolute;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 7px;
+    margin-bottom: 20px;
     background-color: rgb(24, 26, 28);
     border: 0px;
     color: white;
     border-radius: 5px;
     height: 45px;
-    wid
+    width: 670px;
+    padding-left: 15px;
+   
+    
+}
+
+#review-title-2{
+    position: absolute;
+    top: 350px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    background-color: rgb(24, 26, 28);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    height: 200px;
+    width: 670px;
+    padding-left: 15px;
+    padding-top: 15px;
+    resize: none;
+    
+    
+}
+
+.sumit-button{
+    position: absolute;
+    height: 45px;
+    width: 690px;
+    top: 600px;
+    margin-left: 20px;
+    /* left: 250px; */
+    background-color: rgb(121, 117, 117);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.sumit-button:hover{
+background-color: rgba(255, 255, 46, 0.9);
+}
+
+.sumit-button h3{
+    color: white;
+}
+
+
+.rating-background,
+#create-review{
+    z-index: 1000;
+}
+
+#divisor{
+    z-index: 1001;
+}
+
+.prendetojoan{
+      position:fixed;
+       background-color: rgba(0, 0, 0, 0.65); 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);            
+    -webkit-backdrop-filter: blur(6px);    
+    z-index: 999;
+}
+
+#button-patra{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height:fit-content ;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#button-patra:hover{
+    background-color: rgba(128, 128, 128, 0.17);
 }
