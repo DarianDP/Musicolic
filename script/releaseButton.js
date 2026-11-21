@@ -40,3 +40,4 @@ popular.addEventListener("click", () =>{
 ViewMore.addEventListener("click",() =>{
     window.location.href = `HotNewRelease.html`
 })
+

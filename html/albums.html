@@ -11,6 +11,7 @@
     <script src="/script/materia-send.js" defer></script>
     <script src="/script/materia-get.js" defer></script>
     <script src="/script/user-navigation-backup.js" defer></script>
+    <script src="/script/ratingsButton.js" defer></script>
     <!-- <script src="/script/user-navigarion.js" defer></script> -->
 
 
@@ -184,9 +185,38 @@
 
                  <div class="album-ratings">
                     <h3 class="rating-h3">Rating</h3>
-                <div id="rating-star">
-                    
+
+                <fieldset id="rating-star">
+                    <input type="radio" name="rating" id="star5" value="5">
+                    <label for="star5">★</label>
+
+                     <input type="radio" name="rating" id="star4" value="4">
+                    <label for="star4">★</label> 
+
+                     <input type="radio" name="rating" id="star3" value="3">
+                    <label for="star3">★</label>
+
+                     <input type="radio" name="rating" id="star2" value="2">
+                    <label for="star2">★</label>
+
+                     <input type="radio" name="rating" id="star1" value="1">
+                    <label for="star1">★</label>
+                    <button id="delete-stars" type="button">X</button>
+                </fieldset>
+
+                  <div class="listened-forzao">
+                    <h3 id="listened-at">Listened At</h3>
+                    <input type="date" id="time-selector" >
                 </div>
+
+                <div class="review-panel">
+                    <h3>Review</h3>
+                </div>
+
+                <div>
+                    <input type="text" name="" id="review-title" placeholder="Review title">
+                </div>
+               
             </div>
             </div>
 

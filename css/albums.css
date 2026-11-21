@@ -262,3 +262,100 @@ flex-direction: row;
     color: white;
     margin-left: 20px;
 }
+
+#rating-star{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 0px;
+}
+
+#rating-star input{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+#rating-star label{
+font-size: 35px;
+cursor: pointer;
+color: #cccccc73;
+transition: color 0.15s ease-in-out;    
+}
+
+#rating-star input:checked ~label,
+#rating-star label:hover,
+#rating-star label:hover ~label{
+    color: yellow;
+}
+
+#delete-stars{
+    color: #cccccc73;
+    font-size: 19px;
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    right: 570px;
+    top: 180px;
+}
+
+#delete-stars:hover{
+    color: white;
+}
+
+#time-selector{
+   font-size: 15px;
+     background-color: rgb(24, 26, 28);
+    border: 1px;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 110px;
+    cursor: pointer;
+    
+}
+#time-selector:hover{
+    ;
+}
+
+.listened-forzao{
+    position: absolute;
+    right: 430px;
+    top: 148px;
+}
+
+#listened-at{
+    color: white;
+ position: relative;
+ bottom: 18px;   
+
+}
+
+.listened-forzao input{
+   
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}   
+
+.review-panel h3{
+    margin-left: 20px;
+margin-top: 35px;
+}
+
+#review-title{
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: rgb(24, 26, 28);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    wid
+}
