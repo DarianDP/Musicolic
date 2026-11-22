@@ -419,3 +419,13 @@ const albumsdata = {
         streamUrl: ""
     }
 };
+
+const reviewdata = {
+    "pablito":{
+        titulo: "trash",
+        calification: 1,
+        review:"Taylor swift last album is the bigges shit i ever hear in my life cuh",
+        userName:"PablitoLaQuema",
+        UserProfile:"/css/img/pablito.jpg"
+    },
+};

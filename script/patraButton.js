@@ -44,8 +44,20 @@ patra2.addEventListener("click",() =>{
      thanks.style.display = "none"
 })
 
-rateThatShit.addEventListener("click",() =>{
+rateThatShit.addEventListener("click",(Event) =>{
     backgroundKiller.style.display = "flex"
 backgroundKiller2.style.display = "flex"
+
+Event.stopPropagation();
 })
 
+document.addEventListener("click",(Event) =>{
+     const letopate = 
+     backgroundKiller.contains(Event.target);
+    
+
+     if(!letopate){
+          backgroundKiller.style.display = "none"
+          backgroundKiller2.style.display = "none"
+     }
+})

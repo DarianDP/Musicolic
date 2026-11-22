@@ -1,0 +1,92 @@
+#album-panel{
+
+    border-radius: 15px;
+    height: 220px;
+    width: 220px;
+}
+
+#profile-panel{
+    border-radius: 40px;
+    height: 75px;
+    width: 75px;
+}
+
+#artist-imagen{
+    border-radius: 40px;
+    height: 35px;
+    width: 35px;
+}
+
+
+.album-row{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+    
+}
+
+.album-data-panel{
+    display: flex;
+}
+
+.album-data-panel h4{
+    color: rgb(144, 134, 134);
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.album-block{
+    margin-top: 80px;
+    display: block;
+
+    margin-left: 25px;
+}
+
+.artist-colum{
+    display: flex;
+    align-items: center;
+}
+
+#album-nombre{
+    color: white;
+    margin: 0px;
+}
+
+#artist-nombre{
+    color: white;
+    margin: 0px;
+    margin-left: 10px;
+    
+}
+
+#date-album{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.division{
+    background-color: rgba(128, 128, 128, 0.253);
+    height: 1px;
+    margin-left: 300px;
+}
+
+.review-section{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.nombresito h4{
+color: rgb(101, 95, 95);
+padding-right: 8px;
+}
+
+.nombresito{
+    display: flex;
+    margin-left: 20px;
+}
+
+#username{
+    color: white;
+}

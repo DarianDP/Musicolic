@@ -548,7 +548,7 @@ flex-direction: column;
 }
 
 .album-header .title{
-    align-self: flex-start;
+    /* align-self: flex-start; */
     margin: 0;
     color: white;
 }
@@ -667,6 +667,7 @@ flex-direction: column;
     text-decoration: none;
     transition: transform 0.2s ease, filter 0.2s ease;
     transform-origin: left center;
+    cursor: pointer;
 }
 
 .review-redirect:hover{

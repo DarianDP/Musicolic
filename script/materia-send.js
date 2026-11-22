@@ -27,3 +27,13 @@ document.addEventListener("click",(t) =>{
         window.location.href = `albums.html?id=${id}`;
     }
 })
+
+document.addEventListener("click",(t) =>{
+    const card = t.target.closest(".review-redirect");
+    if(!card) return;
+
+    const id = card.getAttribute("materia-id");
+    if(id !== null){
+        window.location.href = `reviewsPanel.html?id=${id}`;
+    }
+})
