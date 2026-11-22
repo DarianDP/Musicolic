@@ -242,7 +242,7 @@ const albumsdata = {
     "flavorz-pack": {
         title: "Flavorz Pack",
         artist: "Dei V",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/1200x/f2/1a/87/f21a8757a4bd949bce43ab53d531f500.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/07/88/2f078833-2f0e-9066-1414-074c6bd6a7d0/885288786965.jpg/592x592bb.webp",
         description: "Album by Dominican artist Dei V.",
@@ -252,7 +252,7 @@ const albumsdata = {
     "la-postal": {
         title: "LA POSTAL",
         artist: "Daddy Yankee",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/4f/61/d8/4f61d840b892f74ce2cf966d00bad10f.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/2a/a4/242aa4a9-808f-419f-289c-e7e6a1517c08/4593106.jpg/592x592bb.webp",
         description: "Album by Daddy Yankee.",
@@ -262,7 +262,7 @@ const albumsdata = {
     "soy-un-fatalista": {
         title: "Soy un fatalista",
         artist: "Easykid",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/fd/12/a6/fd12a6dc26625fa751452117510cc0b7.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/ae/d4/67aed434-196a-9e39-7b2e-a5f2e5cd6e3b/823375530558_Cover.jpg/592x592bb.webp",
         description: "Album by Easykid.",
@@ -272,7 +272,7 @@ const albumsdata = {
     "a-veces-solo-me-divierto": {
         title: "A Veces Solo Me divierto",
         artist: "Duki",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/89/92/c6/8992c6599cd526efa74df4f7013331be.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/bf/6e/ccbf6ea0-00c9-462c-c091-81c844a6f9aa/711641152781.jpg/592x592bb.webp",
         description: "Album by Argentine artist Duki.",
@@ -282,7 +282,7 @@ const albumsdata = {
     "kobe-brray-8": {
         title: "Kobe Brray 8",
         artist: "Brray",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/88/48/5a/88485a48b146a01635ad2e7a76a2b430.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/49/fa/3f49faa7-a786-972e-c1cf-dd4c8b9ef8eb/26UM1IM28204.rgb.jpg/592x592bb.webp",
         description: "Album by Puerto Rican artist Brray.",
@@ -302,7 +302,7 @@ const albumsdata = {
     "la-universidad-del-perreo": {
         title: "La Universidad del perreo",
         artist: "Wisin",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/19/90/6e/19906e2e9984955519f89fc714dfc765.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/84/16/14841629-3864-f3f2-5d43-58f11a71573c/196874932766.jpg/592x592bb.webp",
         description: "Album by Wisin.",
@@ -352,7 +352,7 @@ const albumsdata = {
     "el-club-de-las-19-flores": {
         title: "EL CLUB DE LAS 19 flores",
         artist: "Feid",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/c8/08/ba/c808baf8615cc11f904c5e677f190fae.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/592x592bb.webp",
         description: "Album by Colombian artist Feid.",
@@ -362,7 +362,7 @@ const albumsdata = {
     "la-jangada": {
         title: "La Jangada",
         artist: "Milo j",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/5e/c4/60/5ec460fe15688d187b2ec2b51b5f4321.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/31/c6/9231c6ea-d822-7b2e-d894-f4af474d97c1/196874816622.jpg/592x592bb.webp",
         description: "Album by Argentine artist Milo J.",
@@ -372,7 +372,7 @@ const albumsdata = {
     "turr4zo": {
         title: "TURR4ZO",
         artist: "Trueno",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/2a/bf/ec/2abfec96c8f36b855227979be66baded.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/8a/b9/f38ab982-c8d9-8123-71e6-5eabc9fb9d97/196874265529.jpg/592x592bb.webp",
         description: "Album by Argentine rapper Trueno.",
@@ -382,7 +382,7 @@ const albumsdata = {
     "octane": {
         title: "Octane",
         artist: "Don Toliver",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/51/c4/aa/51c4aa14b7738785926933ac4d88cac4.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/40/8d/54/408d5431-2932-c4b1-9328-dd35770781f7/a3498bf4457b6a6459cf4d57f2864f05_Preview_Image_Intermediate_nonvideo_sdr_421701936_2536755511.png/592x592bb.webp",
         description: "Album by Don Toliver.",
@@ -402,7 +402,7 @@ const albumsdata = {
     "por-si-manana-no-estoy": {
         title: "POR SI MAÑANA NO ESTOY",
         artist: "Omar Courtz",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/c2/92/f7/c292f70343528ade3f2147879b5afa05.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/592x592bb.webp",
         description: "Album by Puerto Rican artist Omar Courtz.",
@@ -412,7 +412,7 @@ const albumsdata = {
     "si-caminas-solo": {
         title: "Si Caminas Solo..",
         artist: "Lit Killah",
-        artistImg: "",
+        artistImg: "https://i.pinimg.com/736x/cd/2b/24/cd2b248cba35658afcca56fdeb4af09c.jpg",
         Year: "2026",
         cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/64/83/7264831d-f9bf-5314-ad8a-21830a085ed2/1200220344062.jpg/592x592bb.webp",
         Tracks: "10 tracks",

@@ -11,6 +11,11 @@ if(albumWindow){
     document.getElementById("artist-name").textContent = albumWindow.artist;
     document.getElementById("tracks-cantidad").textContent = albumWindow.Tracks
     document.getElementById("listen-on-stream").href = albumWindow.streamUrl
+
+    document.getElementById("album-imagen").src = albumWindow.cover;
+     document.getElementById("artist-name2").textContent = albumWindow.artist;
+      document.getElementById("album-name2").textContent = albumWindow.title;
+      document.getElementById("rating-name").textContent = albumWindow.title;
 }else{
     document.getElementById("albums-name").textContent ="Album not found";
 }

@@ -248,6 +248,8 @@ flex-direction: row;
 #artist-name2{
     margin: 0px;
     color: gray;
+    padding-left: 3px;
+    
 }
 
 
@@ -273,6 +275,7 @@ flex-direction: row;
     display: flex;
     flex-direction: row-reverse;
     border: 0px;
+    justify-content: start;
 }
 
 #rating-star input{
@@ -447,3 +450,55 @@ background-color: rgba(255, 255, 46, 0.9);
 #button-patra:hover{
     background-color: rgba(128, 128, 128, 0.17);
 }
+
+.green-background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    width: 500px;
+    background-color: rgb(13, 219, 13);
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+#graciapa{
+    display: flex;
+    margin-left: 15px;
+}
+
+#graciapa h3{
+    color: white;
+}
+
+.green-background button{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    padding-right: 20px;
+    color: white;
+    height: fit-content;
+    cursor: pointer;
+}
+
+@keyframes backgroundkiller {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.rating-background,
+.prendetojoan,
+.green-background{
+    animation: backgroundkiller 0.2s ease forwards ;
+}
+
