@@ -422,10 +422,20 @@ const albumsdata = {
 
 const reviewdata = {
     "pablito":{
+        albumId: "life-of-a-showgirl-encore",
         titulo: "trash",
         calification: 1,
         review:"Taylor swift last album is the bigges shit i ever hear in my life cuh",
         userName:"PablitoLaQuema",
-        UserProfile:"/css/img/pablito.jpg"
+        UserProfile:"/css/img/pablito.jpg",
+        
     },
+    "quinu_309":{
+        albumId: "corsa",
+        titulo: "Mónaco tenía razón",
+        calification: 4,
+        review:"Eladio aunque suene repetitivo, lo hace experimentando con Beats más fuertes, letras que lo acercan más a ser unos de los traperos sino el primer trapero referente en estos últimos años.Este álbum fue más apegado a lo que es en realidad Eladio, dejando atrás la saga de sendo kbron, pero manteniendo esos sonidos para abrir un nuevo capítulo, dándole un detalle a los fans, y dando a entender que Eladio no se queda sin ideas… las ideas les buscan. Pero ojo, hay ciertos detrás que faltan como el más importante, me esperaba más de Riki bobby",
+        userName:"quinu_309",
+        UserProfile:"/css/img/profile 2.jpeg",
+    }
 };

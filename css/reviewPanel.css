@@ -72,7 +72,7 @@
 }
 
 .review-section{
-    display: flex;
+    display:flex;
     margin-left: 60px;
     margin-top: 60px;
 }
@@ -90,3 +90,33 @@ padding-right: 8px;
 #username{
     color: white;
 }
+
+#rating-star{
+    padding-left:  10px;
+    padding-top: 0px;
+    pointer-events: none;
+}
+
+#rating-star input:checked ~label,
+#rating-star label:hover,
+#rating-star label:hover ~label{
+    color: yellow;
+}
+
+.actual-review{
+    margin-left: 10px;
+}
+
+#title-papa{
+    margin: 0px;
+    margin-top: 10px;
+    
+    color: white;
+}
+
+#review-conenido{
+    width: 800px;
+    white-space:pre-wrap;
+    color: white;
+}
+

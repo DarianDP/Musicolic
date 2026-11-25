@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/albums.css">
     <link rel="stylesheet" href="/css/reviewPanel.css">
 
     <script src="/script/home.js" defer></script>
@@ -11,9 +12,11 @@
     <script src="/script/Search.js" defer></script>
     <script src="/script/search2.js" defer></script>
     <script src="/script/materia.js" defer></script>
+        <script src="/script/puente.js" defer></script>
     <script src="/script/materia-send.js" defer></script>
     <script src="/script/materia-get.js" defer></script>
     <script src="/script/user-navigarion.js" defer></script>
+
     <title>Reviews</title>
 </head>
 <body>
@@ -115,16 +118,17 @@
 
     <div class="album-colum">
         <div class="album-row">
-            <img src="/css/img/atp.jpeg" alt="" id="album-panel">
+            <img src="" alt="" id="album-panel">
             
             <div class="album-block">
-            <h2 id="album-nombre">ATP</h2>
+            <h2 id="album-nombre"></h2>
 
             
         <div class="album-data-panel">
             <h4>Album ●</h4>
-            <h4 id="date-album">2024-08-31</h4>
-            <h4>● 17 Tracks</h4>
+            <h4 id="date-album"></h4>
+            <h4> ●</h4>
+            <h4 id="tracks-cuantity"></h4>
          </div>
 
          <div class="artist-colum">
@@ -141,11 +145,44 @@
 
     <div>
         <div class="review-section">
-            <img src="/css/img/profile6.jpeg" alt="" id="profile-panel">
+            <img src="" alt="" id="profile-panel">
+            
+            <div class="pruebita">
             <div class="nombresito">
                 <h4>Review by</h4>
-                <h4 id="username">PablitoLaQuema</h4>
+                <h4 id="username"></h4>
             </div>
+
+            <div class="calification">
+                <fieldset id="rating-star">
+                    <input type="radio" name="rating" id="star5" value="5" required>
+                    <label for="star5">★</label>
+
+                     <input type="radio" name="rating" id="star4" value="4">
+                    <label for="star4">★</label> 
+
+                     <input type="radio" name="rating" id="star3" value="3">
+                    <label for="star3">★</label>
+
+                     <input type="radio" name="rating" id="star2" value="2">
+                    <label for="star2">★</label>
+
+                     <input type="radio" name="rating" id="star1" value="1">
+                    <label for="star1">★</label>
+                    <button id="delete-stars" type="button">X</button>
+                </fieldset>
+
+            </div>
+
+            <div class="actual-review">
+                <h2 id="title-papa"></h2>
+                <p id="review-conenido"></p>
+            </div>
+
+            </div>
+
+            
+
         </div>
     </div>
 </body>
