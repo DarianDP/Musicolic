@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="/css/menu.css">
+      <link rel="stylesheet" href="/css/albums.css">
+      <link rel="stylesheet" href="/css/artist.css">
+    <title>Artist</title>
+</head>
+<body>
+    <div class="header">
+
+    
+        <a href="/html/home.html" class="logo-link" aria-label="Musicolic home">
+            <img src="/css/img/Orbiting_Music_Emblem-removebg-preview.png" alt="Logo" id="logo-img">
+        </a>
+
+        <input type="text" placeholder="Search Music" id="Buscador" >
+
+        <div class="music-menu">
+            <button class="head musiquitapa" type="button" aria-expanded="false" aria-controls="music-options">
+                Music
+            </button>
+            <div class="music-options" id="music-options" hidden>
+                <a href="/html/Creator-top.html" class="music-menu-options">
+                    
+                    <h5>📌 Creator top 10</h5> 
+                </a>
+
+                <a href="/html/Top10Albums.html" class="music-menu-options" id="mieldayesemargin">
+                    
+                    <h5>💿 Top 10 albums</h5>
+                </a>
+
+                <a href="/html/Top10Artists.html" class="music-menu-options">
+                
+                    <h5>🎤 Top 10 artists</h5>
+                </a>
+
+                <a href="/html/HotNewRelease.html" class="music-menu-options">
+                
+                    <h5>🎶 Hot new releases</h5>
+                </a>
+                
+
+
+
+            </div>
+        </div>
+        <a href="/html/reviews.html" class="head">Reviews</a>
+        <a href="/html/List.html" class="head">Lists</a>
+
+        
+        
+        <div class="user-navigation">
+
+            <!-- boton de anadir -->
+            <a class="add-content" title="Add Content" id="Add-contenidopa">
+                <img src="/css/img/create.png" alt="Add Content" class="add-content-image">
+               
+                
+            </a>
+
+            <div class="backdrop"></div>
+            <div class="create-rating" hidden>
+                
+                    <div></div>
+                    <h2 class="create-rating-text">Create a Rating</h2>
+                    <button class="cancel-button">X</button>
+                
+            </div>
+            <div class="divisor-create" hidden></div>
+             <div class="add-content-windows" hidden>
+
+                <input type="text" class="add-search" id="seach-add" placeholder="Search Music...">
+                
+
+             </div>
+
+             <div class="add-search-background" hidden >
+                <div class="albums-rate">
+                    <h2>Albums</h2>
+                    <a href="" id="add-albums-pago3" hidden>Add New Albums</a>
+                </div>
+             </div>
+             <!-- boton de anadir -->
+            
+
+
+
+            <a class="add-content" title="Chats" id="Comment-margindemierda">
+                <img src="/css/img/coment.png" alt="Add Content" class="add-content-image">
+            </a>
+            <a class="add-content" title="Notifications">
+                <img src="/css/img/campana.png" alt="Add Content" class="add-content-image">
+            </a>
+
+            <button class="User-profile-login" >
+                <img src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Clipart.png" alt="" class="User-profile-login-photo">
+            </button>
+        </div>
+            
+    
+    </div>
+    
+    <div class="album-data">
+        <div id="album-divisor"></div>
+
+        <div class="album-data-header">
+            <div class="album-information">
+                <img src="" id="img-holder" alt="">
+               
+                <div class="extra-album-information">
+                    <h1 id="album-name"></h1>
+
+                    <div class="flex-extra-row">
+                   
+                    <p id="tracks-cantidad2"></p>
+                    </div>
+                    
+                    <div class="extra-roow-artist">
+                        <!-- <img src="" id="artist-img" alt=""> -->
+                        <!-- <p id="artist-name"></p> -->
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="albums-social">
+                <div class="ratings-media">
+                    <h2 id="ratings-total">0</h2>
+                    <h3>Total Ratings</h3>
+                </div>
+                <div class="ratings-media2">
+                    <h2 id="ratings-total">⭐ 0 / 5</h2>
+                    <h3>Average Ratings</h3>
+
+                </div>
+                 <div class="ratings-media3">
+                    <h2 id="ratings-total">⭐ 0 / 5</h2>
+                    <h3>Your Rating</h3>
+
+                </div>
+                
+                <div class="rate-album">
+                    <button class="rate-album-button">
+                        <h2 id="rate-album-wakata">★ Rate Album</h2>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+#tracks-cantidad2{
+    width: 350px;
+    height: 200px;
+    line-height: 20px;
+   
+    display: -webkit-box;
+    -webkit-line-clamp: 10;   /* 200px height ÷ 20px line-height = 10 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+
+.extra-album-information{
+    margin-top: 100px;
+}
+
+#img-holder{
+    border-radius: 200px;
+}

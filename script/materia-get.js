@@ -5,6 +5,7 @@ const albumWindow = albumsdata[selectId];
 const reviewWindow = reviewdata[selectId];
 
 
+
 if(reviewWindow){
     document.getElementById("profile-panel").src = reviewWindow.UserProfile;
     document.getElementById("username").textContent = reviewWindow.userName;
@@ -37,6 +38,8 @@ if(albumWindow){
      document.getElementById("artist-name2").textContent = albumWindow.artist;
       document.getElementById("album-name2").textContent = albumWindow.title;
       document.getElementById("rating-name").textContent = albumWindow.title;
+
+      
     
       
      

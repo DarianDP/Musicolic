@@ -37,3 +37,13 @@ document.addEventListener("click",(t) =>{
         window.location.href = `reviewsPanel.html?id=${id}`;
     }
 })
+
+document.addEventListener("click",(t) =>{
+    const card = t.target.closest(".extra-roow-artist");
+    if(!card) return;
+
+    const id = card.getAttribute("materia-id");
+    if(id !== null){
+        window.location.href = `artist.html?id=${id}`;
+    }
+})
